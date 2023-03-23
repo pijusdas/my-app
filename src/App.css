@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .App-link {
@@ -36,3 +38,20 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  color: blue;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.persion{
+  background-color: rgb(23, 10, 69);
+  padding: 20px;
+  border: 3px solid rgb(72, 12, 43);
+  margin: 10px;
+  border-radius: 20px;
+  color: antiquewhite;
+
+}
+
